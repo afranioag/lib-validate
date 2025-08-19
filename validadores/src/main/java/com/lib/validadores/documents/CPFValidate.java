@@ -1,6 +1,5 @@
 package com.lib.validadores.documents;
 
-import static io.micrometer.common.util.StringUtils.isBlank;
 
 public class CPFValidate {
 
@@ -47,6 +46,10 @@ public class CPFValidate {
             return Character.toUpperCase(c) - 'A' + 10;
         }
         throw new IllegalArgumentException("Caractere inválido na base do documento: " + c);
+    }
+
+    private static boolean isBlank(String s) {
+        return s == null || s.trim().isEmpty();
     }
 
     private static String removeCharacters(String s) {
