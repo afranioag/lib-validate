@@ -12,7 +12,7 @@
     <packaging>jar</packaging>
     <name>Validadores</name>
     <description>Biblioteca simples de validação em Java</description>
-    <url>https://github.com/seunome/validadores</url>
+    <url>https://github.com/afranioag/lib-validate.git</url>
 
     <!-- 🔹 Informações de licença -->
     <licenses>
@@ -26,17 +26,17 @@
     <!-- 🔹 Informações do autor -->
     <developers>
         <developer>
-            <id>seunome</id>
-            <name>Seu Nome</name>
-            <email>seuemail@exemplo.com</email>
+            <id>afranioag</id>
+            <name>afranio alves garcia</name>
+            <email>afranio.garcia@ccc.ufcg.edu.br</email>
         </developer>
     </developers>
 
     <!-- 🔹 SCM: link do repositório GitHub -->
     <scm>
-        <connection>scm:git:git://github.com/seunome/validadores.git</connection>
-        <developerConnection>scm:git:ssh://github.com:seunome/validadores.git</developerConnection>
-        <url>https://github.com/seunome/validadores</url>
+        <connection>scm:git:git://github.com/afranioag/lib-validate.git</connection>
+        <developerConnection>scm:git:ssh://github.com/afranioag/lib-validate.git</developerConnection>
+        <url>https://github.com/afranioag/lib-validate.git</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -48,15 +48,7 @@
     </properties>
 
     <dependencies>
-        <!-- Dependências necessárias vão aqui -->
-        <!-- Exemplo: se quiser usar validações do Jakarta -->
-        <!--
-        <dependency>
-            <groupId>jakarta.validation</groupId>
-            <artifactId>jakarta.validation-api</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-        -->
+
     </dependencies>
 
     <build>
